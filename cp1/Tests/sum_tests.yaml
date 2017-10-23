@@ -1,0 +1,20 @@
+testSUM:
+  inputs:
+    - number1: "9"
+    - number2: "10"
+  description: Test SUM flow
+  testFlowPath: math.sum
+  outputs:
+    - flow_output_0: '19'
+  result: SUCCESS
+  
+
+testSUM2:
+  inputs:
+    - number1: "9"
+    - number2: "1"
+  description: Test SUM flow
+  testFlowPath: math.sum
+  outputs:
+    - flow_output_0: '10'
+  result: SUCCESS
